@@ -1,7 +1,7 @@
-const env = require('./env');
 const express = require('express');
 const helmet = require('helmet');
 const routes = require('./routes');
+const env = require('./env');
 
 const { PORT } = env;
 
