@@ -5,6 +5,7 @@
   "author": "Jacob Bare <jacob@limit0.io>",
   "license": "MIT",
   "scripts": {
+    "test": "./node_modules/.bin/eslint src/**/*.js",
     "start": "yarn stop && $npm_package_docker_dev_install && $npm_package_docker_dev_up",
     "start:local": "PORT=3005 ./node_modules/.bin/nodemon server.js --exec \"./node_modules/.bin/eslint src/server/**/*.js && node\"",
     "stop": "$npm_package_docker_dev_down",
@@ -37,6 +38,7 @@
     "helmet": "^3.13.0",
     "isomorphic-unfetch": "^2.1.1",
     "moment": "^2.19.1",
+    "newrelic": "^6.3.0",
     "next": "6.1.1-canary.4",
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
