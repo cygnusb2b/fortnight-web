@@ -48,7 +48,7 @@
     "react-share": "^2.2.0",
     "react-visibility-sensor": "^3.11.1",
     "reactstrap": "^6.3.1",
-    "validator": "^10.5.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
